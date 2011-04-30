@@ -23,7 +23,7 @@ def detail(request, poll_id):
         p = Poll.objects.get(id=poll_id)
     except Poll.DoesNotExist:
         raise Http404
-    return render_to_response('polls/detail.html', {'poll': p})
+    return render_to_response('detail.html', {'poll': p})
 
 def results(request, poll_id):
     return HttpResponse("You're looking at the results of poll <strong>%s</strong>." % (poll_id,))
