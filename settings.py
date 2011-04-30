@@ -83,7 +83,8 @@ STATICFILES_FINDERS = (
 )
 
 # Make this unique, and don't share it with anybody.
-SECRET_KEY = 'f^x$a&(w6e$xf!wguw82(#p1c*v@6vww^nyjbet+f+ap$qojt!'
+SECRET_KEY = 'mysecretforpystar'
+#SECRET_KEY = 'f^x$a&(w6e$xf!wguw82(#p1c*v@6vww^nyjbet+f+ap$qojt!'
 
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (
